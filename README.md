@@ -1,1 +1,9 @@
 # CS-465 Travlr project
+
+Architecture - The project involved both server-side rendering and a client-side single-page application (SPA). The server used Express for static HTML and JavaScript files, while the SPA was developed using Angular for dynamic content updates. The backend used a NoSQL MongoDB database for handling unstructured and flexible data models, which is crucial for projects like this where travel packages and user accounts may change over time. MongoDB's integration with Node.js and Express also expedited development.
+
+Functionality - JSON is a data interchange format that resembles JavaScript objects but is a structured data format. It serves as a bridge between the frontend and backend, allowing the Angular frontend to send and receive data in JSON format. The project involved refactoring code to improve maintainability and functionality, such as modularizing form components in Angular to reduce duplication, create a more consistent UI, and allow faster updates across the app.
+
+Testing - I tested APIs by sending various HTTP requests to verify each endpoint's functionality. They added login security, requiring simulation of both public and secure requests. This provided a deeper understanding of HTTP actions, endpoints, and security. Postman was a valuable tool for testing and troubleshooting both protected and unprotected routes, ensuring proper endpoint performance.
+
+Reflection - The course enhanced my confidence in backend and frontend development, provided hands-on experience in creating full stack applications, and strengthened my skills in API development, database integration, and client-side frameworks like Angular. I also learned secure authentication, a critical skill for modern web applications. This project made me a more competitive candidate for software development roles, demonstrating technical abilities and understanding of full system design.
